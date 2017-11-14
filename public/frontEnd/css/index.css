@@ -1,0 +1,129 @@
+body {
+    background-color: #fff;
+}
+
+.lt-cate {
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.lt-cate a {
+    width: 33.3%;
+    float: left;
+}
+
+.lt-cate a img {
+    display: block;
+    width: 100%;
+}
+
+.lt-active {
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    padding: 0 10px;
+}
+
+.lt-active a:nth-child(2n+1) {
+    width: 67.1%;
+    float: left;
+}
+
+.lt-active a:nth-child(2n+1) img {
+    width: 50%;
+    float: left;
+}
+
+.lt-active a:nth-child(2) {
+    width: 32.9%;
+    float: right;
+}
+
+.lt-active a:nth-child(2) img {
+    width: 100%;
+}
+
+.lt-brand {
+    padding: 0 10px;
+}
+
+.lt-brand>img {
+    width: 100%;
+}
+
+.lt-brand ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lt-brand ul li {
+    width: 25%;
+    float: left;
+}
+
+.lt-brand li a {
+    display: block;
+}
+
+.lt-brand a img {
+    width: 100%;
+}
+
+.lt-live {
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.lt-live img {
+    width: 100%;
+}
+
+.lt-product {
+    float: left;
+    width: 50%;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+.lt-product .box {
+    width: 100%;
+    box-shadow: 0 0 5px #ccc;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.lt-product .box img {
+    width: 100%;
+}
+
+.lt-product .box .name {
+    padding: 0 10px;
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+}
+
+.lt-product p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #8f8f94;
+}
+
+.lt-product .box .price {
+    font-size: 12px;
+    color: #f30;
+    margin-right: 10px;
+}
+
+.lt-product .box .oldPrice {
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.lt-product .box .mui-btn {
+    background: #006699;
+    color: #fff;
+}

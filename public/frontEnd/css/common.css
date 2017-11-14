@@ -1,0 +1,96 @@
+.lt-layout{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.lt-topBar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background: #006699;
+  text-align: center;
+  color: #fff;
+}
+.lt-topBar .icon_search{
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  padding: 3px;
+}
+.lt-container {
+  padding-top: 45px;
+  padding-bottom: 50px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.lt-container .mui-scroll-wrapper{
+  position: relative;
+  height: 100%;
+}
+.lt-container .mui-scroll {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+}
+.lt-tabs {
+  height: 50px;
+  width: 100%;
+  background: #006699;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+.lt-tabs a {
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+}
+.lt-tabs a.now{
+  color: darkorange;
+}
+.lt-tabs a span{
+  display: block;
+  font-size: 12px;
+  padding: 3px 0;
+}
+.lt-topBar .icon_back {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+  padding: 3px;
+}
+.lt-topBar .icon_refresh {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  padding: 3px;
+}
+
+.lt-topBar form {
+  padding: 0 40px;
+  width: 100%;
+}
+.lt-topBar form input {
+  background: #fff;
+  margin-bottom: 0;
+  height: 30px;
+  padding: 0 10px;
+  color: #333;
+  border-radius: 2px;
+}
